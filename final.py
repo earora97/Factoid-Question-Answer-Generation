@@ -79,5 +79,5 @@ if __name__=="__main__":
     obj=Article(filename)
     questions=obj.generate_trivia_questions()
     for question in questions:
-        print "Q.",question['question']
-        print "Ans.",question['answer']
+        print ("Q.",question['question'])
+        print ("Ans.",question['answer'])
